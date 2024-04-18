@@ -1,1 +1,0 @@
-# fanqasy.github.io
