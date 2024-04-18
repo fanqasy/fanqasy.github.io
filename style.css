@@ -43,13 +43,13 @@ body {
     padding: 15px;
     text-align: center;
     opacity: 0;
-    animation: fadeInTitle 1s ease forwards;
+    animation: fadeInTitle 1s ease forwards; 
 }
 
 h2, h3 {
     text-align: center;
     opacity: 0;
-    animation: 1s fadeInHeaders calc(.15s * var(--t)) ease forwards;
+    animation: 1s fadeInHeaders calc(var(--t) * .15s + .5s) ease forwards;
     list-style-position: inside;
 }
 
